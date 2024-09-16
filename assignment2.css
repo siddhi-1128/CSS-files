@@ -1,0 +1,39 @@
+/* id selector */
+#maintopic{
+    color: blue;
+}
+/* universal selector */
+*{
+    text-align: center;
+}
+/* element selector */
+h1,h3,h5{
+    font-family: Georgia;
+}
+/* class selector */
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+/* child selector */
+div button{
+    color: azure;
+    background-color: purple;
+}
+/* pseudo class ex */
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+/* pseudo element ex */
+h1::first-letter{
+    color: red;
+}
+/* pseudo class ex */
+input[type="checkbox"]:checked +label{
+    color: red;
+}
+/* pseudo class example */
+p:nth-of-type(1){
+    color: yellow;
+}

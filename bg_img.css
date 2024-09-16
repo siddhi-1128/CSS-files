@@ -1,0 +1,11 @@
+div{
+    width: 400px;
+    height: 200px;
+    text-align:center;
+    background-color: #7aa874;
+    box-shadow: 2px 2px 8px black;
+    margin: 10px auto;
+    background-image: url(JAM3.png);
+    background-size: cover;
+    color: antiquewhite;
+}
