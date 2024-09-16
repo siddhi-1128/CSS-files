@@ -1,0 +1,41 @@
+h1{
+    border: 2px solid black;
+    width: 33%;
+}
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 50px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    margin-left: 10%;
+}
+#out{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: palevioletred;
+}
+#in{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 0.5em;
+    padding: 1.5em;
+}
+button{
+    font-size: 50px;
+    border-radius: 10px;
+    border: 5px solid saddlebrown;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: sandybrown;
+}
+/* em disadvantage - snowball effect  
+avoid this advantage we use rem
+rem - root element*/
